@@ -1,15 +1,11 @@
-import React from "react";
-import Navbar from "./dawn-ui/components/Navbar";
-import Row from "./dawn-ui/components/Row";
 import Page from "./dawn-ui/components/Page";
 import Container from "./dawn-ui/components/Container";
+import AppNavbar from "./Navbar";
 
 export default function App() {
   return (
     <>
-      <Navbar title="Template dawn-ui app" breadcrumb>
-        <Row>""</Row>
-      </Navbar>
+      <AppNavbar />
       <Page>
         <Container title="Hey!">
           <p>Welcome to the template dawn-ui project.</p>
